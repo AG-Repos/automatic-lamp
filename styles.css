@@ -1,0 +1,36 @@
+/****************************TAG SELECTORS*****************************/
+body {
+  background-color: #d3e0dc;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #66BFBF;
+}
+h3 {
+  color: #66BFBF;
+  font-family: courier;
+}
+img:hover{background-color: #16c79a;}/*applied when hovered or mouse pointer rolled over*/
+/****************************CLASS SELECTORS*****************************/
+.AG{color:#5eaaa8;}
+.submit
+{
+  background-color: #28b5b5;
+  border-radius: 10px;
+  padding: 10px;
+}
+/****************************ID SELECTORS*****************************/
+#NITK{font-family: courier;}
+/****************************PSEUDO CLASSES*****************************/
+::selection {
+  color: white;
+  background: black;
+}
